@@ -71,15 +71,23 @@ export default function App() {
 
 function translateDescription(description) {
   const translations = {
-    "clear sky": "Açık hava",
+    "clear sky": "Açık",
     "few clouds": "Az bulutlu",
     "scattered clouds": "Parçalı bulutlu",
     "broken clouds": "Çok bulutlu",
     "shower rain": "Sağanak yağış",
+    "overcast clouds": "Çok bulutlu",
+    "light rain": "Hafif yağmurlu",
+    "moderate rain": "Orta yağmurlu",
+    "light snow": "Hafif karlı",
+    "light shower rain": "Hafif sağanak yağış",
+    "light thunderstorm": "Hafif gök gürültülü fırtına",
     rain: "Yağmurlu",
     thunderstorm: "Gök gürültülü fırtına",
     snow: "Karlı",
     mist: "Sisli",
+    clouds: "Bulutlu",
+    fog: "Sisli",
   };
 
   return translations[description] || description;
